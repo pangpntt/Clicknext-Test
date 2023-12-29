@@ -1,0 +1,682 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.header {
+    width: 1140px;
+    margin: auto;
+}
+
+.banner {
+    position: relative;
+    border: 1px solid;
+    border: none;
+    background-image: linear-gradient(to top right,#0E044B, #2C309B, #89E8FD);
+}
+
+.banner-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-banner {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.text-banner1 {
+    margin-bottom: 5px;
+}
+
+.innovation {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.for {
+    background: linear-gradient(to right, #14DB60, #AAFFCB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.future {
+    background: linear-gradient(to right, #14DB60, #AAFFCB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.group-text-banner {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.group-date, .rec, .detail-place {
+    padding: 15px;
+}
+
+
+.date {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.month {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.time-banner {
+    border: 1px solid;
+    border: none;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 160px;
+    padding: 3px;
+}
+
+.time-banner-box {
+    color: #100751;
+    text-align: center;
+    font-weight: 700;
+}
+
+.place {
+    background: linear-gradient(to right, #14DB60, #AAFFCB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sponsor-group {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.sponsor {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    padding-right: 30px;
+}
+
+.solution {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffff;
+    padding-bottom: 5px;
+}
+
+.text-ban3 {
+    font-size: 19px;
+    font-weight: 400;
+    color: #BAD0F2;
+}
+.bottom-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.box-header {
+    border: 1px ;
+    border-color: #111933;
+    background-image: linear-gradient(#0f1523, #0e1043);
+    text-align: center;
+    padding: 25px;
+}
+
+.bt-register {
+    background-color: #22d265;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.text-header {
+    color: #ffff;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.text-header2 {
+    color: #a9bddf;
+    font-size: 24px;
+    font-weight: 400;
+}
+.text-header3 {
+    color: #a9bddf;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.healthcare {
+    width: 1050px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text-health {
+    color: #1c1a74;
+    font-size: 32px; 
+    font-weight: 600;
+}
+
+.item {
+    font-size: 22px;
+    font-weight: 400;
+    padding: 3px;
+    color: #272e3f;
+}
+
+.main-speaker {
+    width: 1140px;
+    margin: auto;
+    background-image: url("/image/bg_zone-4.png");
+    padding: 20px;
+}
+
+.topic {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.topic-text {
+    background: linear-gradient(to bottom right, #0E044B, #2C309B, #89E8FD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 36px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.name-speaker {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1e2883;
+}
+
+.faculty-speaker {
+    font-size: 18px;
+    color: #3aa0ff;
+    font-weight: 500;
+}
+
+.detail-speaker {
+    font-size: 17px;
+    color: #4e5565;
+    font-weight: 400;
+}
+
+.schedule {
+    width: 1084px;
+    margin: auto;
+    border: 1px solid;
+    border-color: #f0f9ff;
+    background-color: #f0f9ff;
+    /* padding: 30px; */
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.line {
+    width: 1084px;
+    border: 3px solid #ffffff;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.time {
+    border: 1px solid #0dc554;
+    border-radius: 50px;
+    width: 300px;
+    background-color: #0dc554;
+    padding: 5px 10px;
+    margin: 25px;
+    text-align: center;
+}
+
+.time-span {
+    border: 1px solid #0dc554;
+    border-radius: 50px;
+    width: 230px;
+    background-color: #0dc554;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    margin: 25px;
+}
+
+.time-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text-detail {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.map-container {
+    width: 1084px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid;
+    background: linear-gradient(to top right, #0d2192, #3e6cc5);
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.checkin {
+    display: flex;
+    align-items: center;
+}
+
+.text-map {
+    color: #ffff;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.hotel {
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.group-map {
+    padding: 20px;
+}
+
+.box-map {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.box {
+    padding-right: 80px;
+}
+
+.bt-ggmap {
+    background-color: #359EFF;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.prize-container {
+    width: 1084px;
+    margin: auto;
+    background: linear-gradient(#ffffff, #7be8a2);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.detail-prize {
+    background: #ffff;
+    padding: 20px;
+}
+
+.topic-prize {
+    background: linear-gradient(to bottom right, #0E044B, #2C309B, #89E8FD, #AACCFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.grid-item-prize {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.prize {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #262E3F;
+}
+
+.num-prize {
+    font-size: 22px;
+    font-weight: 600;
+    color: #6F7788;
+}
+
+.box-register {
+    width: 1140px;
+    border: 1px ;
+    border-color: #ffffff;
+    background-image: linear-gradient(#ffffff, #f1faff);
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.register-foot {
+    font-weight: 700;
+    font-size: 26px;
+    color:#0C2292;
+}
+
+.register-foot2 {
+    font-weight: 400;
+    font-size: 24px;
+    color:#6E7788;
+}
+
+.register-foot3 {
+    font-weight: 400;
+    font-size: 20px;
+    color:#262E3F;
+    padding: 5px;
+}
+
+.bt-register-foot {
+    background-color: #22d265;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 10px 180px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.footer {
+    width: 1050px;
+    margin: auto;
+
+}
+
+.box-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ic-phone {
+    margin-right: 20px;
+}
+
+.contact {
+    font-size: 22px;
+    font-weight: 500;
+    color: #6E7788;
+    margin-right: 20px;
+}
+
+.name-contact {
+    font-size: 24px;
+    font-weight: 600;
+    color: #3138A0;
+}
+
+@media screen and (max-width: 391px){
+    .header, .header img, .box-header, .healthcare, .main-speaker, .schedule, .map-container, .prize-container, .box-register, .footer, .banner {
+        width: 390px;
+        margin: 0;
+        align-items: center;
+        border-radius: 0;
+    }
+    .cover img {
+        width: 150px;
+    }
+    .rec img {
+        width: 5px;
+    }
+    .text-header, .text-header2, .bt-register, .text-health, .topic-text, .name-speaker, .faculty-speaker, .topic-prize, .register-foot, .register-foot2, .bt-register-foot, .date {
+        font-size: 16px;
+    }
+    .healthcare, .item {
+        padding: 5px;
+    }
+    .text-header3, .text, .detail-speaker, .time-text, .text-detail, .text-map, .hotel, .prize, .num-prize, .register-foot3, .contact, .name-contact, .time-banner-box {
+        font-size: 14px;
+    }
+    .icon {
+        width: 10px;
+    }
+    .ic-rec {
+        width: 5px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+    }
+    .grid-item, .grid-item-prize {
+        padding: 5px;
+    }
+    .img {
+        width: 100px;
+    }
+    .time, .time-span {
+        width: 200px;
+        padding: 2px 5px;
+        margin: 5px;
+    }
+    .item, .box, .topic-prize {
+        padding: 0;
+    }
+    .box-map, .box-footer{
+        display: grid;
+    }
+    .icon-check {
+        width: 30px;
+    }
+    .img-room {
+        width: 200px;
+    }
+    .bt-ggmap {
+        font-size: 12px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .img-prize {
+        width: 80px;
+    }
+    .bt-register-foot {
+        padding: 5px 80px;
+    }
+    .ic-phone {
+        display:none;
+        margin-right: 100px;
+    }
+    .detail-prize {
+        align-items: center;
+    }
+     .time-banner-box, .solution, .month {
+        font-size: 12px;
+    }
+    .text-ban3, .place, .info-place {
+        font-size: 8px;
+    }
+    .text-banner1, .group-text-banner {
+        margin-bottom: 3px;
+    }
+    .sponsor img {
+        width: 40px;
+    }
+    .sponsor {
+        margin-top: 10px;
+    }
+    .innovation {
+        font-size: 26px;
+    }
+    .for {
+        font-size: 22px;
+    }
+    .future {
+        font-size: 24px;
+    }
+    .text-banner {
+        margin-left: 3px;
+    }
+    .rec img {
+        width: 3px;
+    }
+    .time-banner {
+        width: 120px;
+        border-radius: 25px;
+    }
+    .group-date {
+        padding: 2px;
+    }
+    .rec {
+        padding-right: 2px;
+    }
+    .logo{
+        padding-right: 5px;
+    }
+}
+
+@media screen and (min-width: 391px) and (max-width: 768px) {
+    .header, .header img, .box-header, .healthcare, .main-speaker, .schedule, .map-container, .prize-container, .box-register, .footer, .banner {
+        width: 768px;
+        margin: 0;
+        align-items: center;
+        border-radius: 0;
+    }
+    .cover img {
+        width: 300px;
+    }
+    .rec img {
+        width: 5px;
+    }
+    .text-header, .text-header2, .bt-register, .text-health, .topic-text, .name-speaker, .faculty-speaker, .topic-prize, .register-foot, .register-foot2, .bt-register-foot{
+        font-size: 16px;
+    }
+    .healthcare, .item {
+        padding: 5px;
+    }
+    .text-header3, .text, .detail-speaker, .time-text, .text-detail, .text-map, .hotel, .prize, .num-prize, .register-foot3, .contact, .name-contact {
+        font-size: 14px;
+    }
+    .icon {
+        width: 10px;
+    }
+    .ic-rec {
+        width: 5px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+    }
+    .grid-item, .grid-item-prize, .group-date, .rec, .detail-place {
+        padding: 5px;
+    }
+    .img {
+        width: 100px;
+    }
+    .time, .time-span {
+        width: 200px;
+        padding: 2px 5px;
+        margin: 5px;
+    }
+    .item, .topic-prize {
+        padding: 0;
+    }
+    .icon-check {
+        width: 30px;
+    }
+    .bt-ggmap {
+        font-size: 12px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .img-prize {
+        width: 80px;
+    }
+    .bt-register-foot {
+        padding: 5px 80px;
+    }
+    .detail-prize {
+        align-items: center;
+    }
+    .date, .solution {
+        font-size: 20px;
+    }
+    .text-ban3 {
+        font-size: 14px;
+    }
+    .place {
+        font-size: 18px;
+    }
+    .text-banner1, .group-text-banner {
+        margin-bottom: 5px;
+    }
+    .sponsor img {
+        width: 80px;
+    }
+    .sponsor {
+        margin-top: 20px;
+    }
+   
+}
+ 
+
+
+
